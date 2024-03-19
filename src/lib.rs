@@ -1,6 +1,6 @@
 use one::one;
 
-pub fn three() -> usize {
+pub fn four() -> usize {
     one() + 2
 }
 
