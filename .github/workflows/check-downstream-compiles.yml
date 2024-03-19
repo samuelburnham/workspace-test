@@ -11,4 +11,4 @@ jobs:
   call-reusable-test:
     uses: lurk-lab/ci-workflows/.github/workflows/check-downstream-compiles.yml@check-downstream-compiles
     with:
-      repo: 'lurk-lab/ci-lab'
+      repository: 'lurk-lab/ci-lab'
