@@ -9,6 +9,7 @@ concurrency:
 
 jobs:
   call-reusable-test:
+    # TODO: Switch to `main` once merged
     uses: lurk-lab/ci-workflows/.github/workflows/check-downstream-compiles.yml@check-downstream-compiles
     with:
       repository: 'lurk-lab/ci-lab'
