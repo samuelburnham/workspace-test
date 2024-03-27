@@ -19,3 +19,4 @@ jobs:
     uses: lurk-lab/ci-workflows/.github/workflows/bench-pr-comment.yml@main
     with:
       default-runner: "buildjet-8vcpu-ubuntu-2204"
+      default-benches: "bench_test"

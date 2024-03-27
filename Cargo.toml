@@ -8,8 +8,15 @@ edition = "2021"
 [dependencies]
 one = { path = "./one" }
 
+[dev-dependencies]
+criterion = "0.4"
+
 [workspace]
 members = [
   "one",
   "two"
 ]
+
+[[bench]]
+name = "bench_test"
+harness = false
